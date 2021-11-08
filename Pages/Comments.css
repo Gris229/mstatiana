@@ -1,0 +1,109 @@
+body{
+    /*Définir l'image de fond */
+    background-image: url(/TatyWeb0/Pictures/p0.jpg);
+    /*Cover pour que l'image couvre tout le body*/
+    background-size: cover;
+    /*Fixed pour fixer l'image, l'empêcher de défiler avec le contenu*/
+    background-attachment: fixed;
+    /*Reset des marges*/
+    padding: 0px;
+    margin: 0px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header h1{
+    text-align: center; 
+    color: seashell;
+    background-color: rgba(000, 000, 000, 0.5);
+    width: 100%;
+    /*Espacer les lettrs de h1*/
+    letter-spacing: 20px;
+    /*Définir une bordure*/
+    border: solid 0.5px black;
+    /*Arrondir la bordure*/
+    border-radius: 10px ;
+
+}
+
+section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    background-color: rgba(155, 145, 145, 0.5);
+    text-align: center;
+}
+
+form{
+    position: relative;
+    left: -500px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+
+}
+
+
+
+label{
+    display: inline-block;
+    width: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 30px;
+    color: snow;
+    position: relative;
+    left: 18px;
+}
+
+input{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 30px;
+    width: 200px;
+    background-color: rgba(000, 000, 000, 0.5);
+    color: lavender;
+    position: relative;
+    left: 14px;
+}
+
+textarea{
+    width: 600px;
+    height: 100px;
+    position: relative;
+    left: 215px;
+    color: lavender;
+    background-color: rgba(000, 000, 000, 0.5);
+}
+
+.msg{
+    position: relative;
+    left: 230px;
+}
+
+.send{
+    margin-top: 25px;
+    width: 120px;
+    position: relative;
+    left: -50px;
+    color: black;
+    background-color: snow;
+    border-radius: 10px;
+}
+
+.send:hover{
+    color: snow;
+    background-color: black;
+}
+
+div{
+    font-size: 20px;
+    color: white;
+    background-color: rgba(32, 20, 20, 0.5);
+    width: 200px;
+    position: relative;
+    top: -50px;
+    left: 550px;
+}

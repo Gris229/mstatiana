@@ -1,0 +1,58 @@
+
+header h1{
+    text-align: center; 
+    color: seashell;
+    background-color: rgba(000, 000, 000, 0.5);
+    /*Fixed pour fixer h1, l'empêcher de défiler avec le contenu*/
+    position: fixed;
+    width: 100%;
+    /*Espacer les lettrs de h1*/
+    letter-spacing: 20px;
+    /*Définir une bordure*/
+    border: solid 0.5px black;
+    /*Arrondir la bordure*/
+    border-radius: 10px ;
+
+}
+.sec{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.submit{
+    font-family: cursive;
+    text-align: center;
+    color: snow;
+    border: beige 1px solid;
+    background-color: rgba(68, 17, 17, 0.25);
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    position: relative;
+    top: -1px;
+    left: -5px;
+}
+
+.input{
+    background-color: rgba(000, 000, 000, 0.5);
+    color: lavender;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.erreur{
+    font-size: 20px;
+    color: white;
+    background-color: rgba(255, 000, 000, 0.5);
+    width: 400px;
+    position: absolute;
+    left: 470px;
+    
+}
+
+form{
+    height: 50px;
+    text-align: center;
+}

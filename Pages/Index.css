@@ -1,0 +1,93 @@
+body{
+    /*Définir l'image de fond */
+    background-image: url(/TatyWeb0/Pictures/p0.jpg);
+    /*Cover pour que l'image couvre tout le body*/
+    background-size: cover;
+    /*Fixed pour fixer l'image, l'empêcher de défiler avec le contenu*/
+    background-attachment: fixed;
+    /*Reset des marges*/
+    padding: 0px;
+    margin: 0px;
+}
+
+section{
+    width: 100%;
+    clear: both;
+    margin: 0px auto;
+}
+
+.sec{
+    text-align: center;
+    text-decoration: snow;
+}
+
+ul li{
+    /*Enlever les puces(points) de la liste*/
+    list-style: none;
+    /*Faire floater les élements de la liste vers la gauche*/ 
+    float: left;
+}
+
+.d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8,.d9,.d10,.d11,.d12{
+    /*Disposer les div côte à côte*/
+    display: inline-block;
+    background-size: cover;
+    height: 250px; 
+    width: 250px;
+    border-radius: 100%;
+    margin: 50px 90px;
+    text-align: center;
+    /*Ne pas afficher tous les élements des div qui débordent*/
+    overflow: hidden;
+}
+
+span{
+    /*Positionner les spans par rapport à leurs élements parent*/
+    position: relative;
+    top: 250px;
+    color: snow;
+    background-color: rgba(000, 000, 000, 0.5);
+    /*Transitions*/
+    transition: top;
+    transition-duration: 1s;
+}
+
+ul li div:hover span{
+    position: relative;
+    top: 50px;
+    color: snow;
+    background-color: rgba(000, 000, 000, 0.5);
+}
+
+.sec{
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.sec a{
+    width: 100%;
+    color: snow;
+}
+
+.sec a:hover{
+    text-decoration: none;
+    color: snow;
+}
+
+
+
+/*Définir les images en fond des div*/
+.d1{background-image: url(/TatyWeb0/Pictures/p1.jpg);}
+.d2{background-image: url(/TatyWeb0/Pictures/p2.jpg);}
+.d3{background-image: url(/TatyWeb0/Pictures/p3.jpg);}
+.d4{background-image: url(/TatyWeb0/Pictures/p4.jpg);}
+.d5{background-image: url(/TatyWeb0/Pictures/p5.jpg);}
+.d6{background-image: url(/TatyWeb0/Pictures/p6.jpg);}
+.d7{background-image: url(/TatyWeb0/Pictures/p7.jpg);}
+.d8{background-image: url(/TatyWeb0/Pictures/p8.jpg);}
+.d9{background-image: url(/TatyWeb0/Pictures/p9.jpg);}
+.d10{background-image: url(/TatyWeb0/Pictures/p10.jpg);}
+.d11{background-image: url(/TatyWeb0/Pictures/p11.jpg);}
+.d12{background-image: url(/TatyWeb0/Pictures/p12.jpg);}
+

@@ -1,0 +1,40 @@
+body{
+    background-image: url(/TatyWeb0/Pictures/p00.jpg);
+    background-color: rgba(000, 000, 000, 0.9);
+    background-attachment: fixed;
+}
+
+
+header a{
+    /*Dé-souligner le lien*/
+    text-decoration: none;
+}
+
+h1{
+    /*Centrer le contenu de h1*/
+    text-align: center;
+    color: seashell;
+    background-color: rgba(grey);
+    letter-spacing: 20px;
+    border: solid 0.5px white;
+    border-radius:10px ;
+}
+
+h2{
+    text-align: center;
+    color: seashell;
+    background-color: rgba(grey);
+}
+
+section{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgray ;
+    background-color: rgba(000, 000, 000, 0.5);
+    position: absolute;
+    left: 270px;
+    width: 800px;
+    letter-spacing: 2px;
+    
+}
